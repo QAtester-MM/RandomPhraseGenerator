@@ -30,7 +30,7 @@ public class PhraseOMatic {
     int rand3 = (int) (Math.random() * threeLength);
     int rand4 = (int) (Math.random() * fourLength);
 
-    //строим фразу
+    //строим фразу 
     String phrase = wordList1[rand1] + " " + wordList2[rand2] + " " + wordList3[rand3] + " " + wordList4[rand4];
 
     System.out.println(" *** ВСЁ, ЧТО НАМ НУЖНО - ЭТО " + phrase);
